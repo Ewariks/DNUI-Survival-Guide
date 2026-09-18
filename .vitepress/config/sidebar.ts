@@ -26,6 +26,7 @@ const sidebar: DefaultTheme.Sidebar = {
       items: [
         { text: '概览', link: '/campus/' },
         { text: '校园网络与信息化服务', link: '/campus/it-services' },
+        { text: '信息化服务常见问题', link: '/campus/it-faq' },
         { text: 'DNUI 常用网站导航', link: '/campus/website-navigation' },
       ],
     },
@@ -39,7 +40,10 @@ const sidebar: DefaultTheme.Sidebar = {
   '/courses/': [
     {
       text: '课程指南',
-      items: [{ text: '概览', link: '/courses/' }],
+      items: [
+        { text: '概览', link: '/courses/' },
+        { text: '高数与线代笔记（微电子专业）', link: '/courses/math-notes' },
+      ],
     },
   ],
   '/cs/': [
