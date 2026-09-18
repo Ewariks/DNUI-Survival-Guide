@@ -44,6 +44,11 @@ export default defineConfig({
   // README / CONTRIBUTING / GitHub 模板不参与站点构建
   srcExclude: ['**/README.md', '**/CONTRIBUTING.md', '**/.github/**/*.md'],
 
+  // 启用 LaTeX 数学公式（行内 $...$ 与块级 $$...$$）
+  markdown: {
+    math: true,
+  },
+
   // 页面底部显示「最后更新」时间（取自 Git 提交记录）
   lastUpdated: {
     text: '最后更新',
