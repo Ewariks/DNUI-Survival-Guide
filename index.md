@@ -5,7 +5,6 @@ hero:
   name: DNUI Survival Guide
   text: 大连东软信息学院生存指南
   tagline: 写给每一个不想稀里糊涂度过大学四年的 DNUIer。非官方、开源、由学生共同维护。
-  # TODO: 仓库创建后，把 OWNER 替换为真实的 GitHub 用户名或组织名
   actions:
     - theme: brand
       text: 开始阅读
@@ -15,7 +14,7 @@ hero:
       link: /contribute/
     - theme: alt
       text: GitHub
-      link: https://github.com/OWNER/DNUI-Survival-Guide
+      link: https://github.com/LuBanQAQ/DNUI-Survival-Guide
 
 features:
   - icon: 🏫

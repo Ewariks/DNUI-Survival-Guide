@@ -11,7 +11,7 @@ description: 如何向 DNUI Survival Guide 贡献内容：最简单的网页编�
 
 直接在 GitHub 网页上编辑，全程不需要安装任何东西：
 
-1. 在本站任意内容页底部，点击「在 GitHub 上编辑此页」（或直接进入 [GitHub 仓库](https://github.com/OWNER/DNUI-Survival-Guide) 找到对应的 `.md` 文件）。
+1. 在本站任意内容页底部，点击「在 GitHub 上编辑此页」（或直接进入 [GitHub 仓库](https://github.com/LuBanQAQ/DNUI-Survival-Guide) 找到对应的 `.md` 文件）。
 2. 点击文件右上角的铅笔图标进入编辑模式，GitHub 会自动为你创建 Fork。
 3. 使用 Markdown 修改内容。
 4. 填写 Commit 信息（如 `docs: 更新生指南`），保存到你自己的 Fork。
@@ -62,7 +62,7 @@ npm run docs:build
 1. 在对应栏目目录下新建 `xxx.md`（文件名使用小写英文、数字和连字符）。
 2. 在 `.vitepress/config/sidebar.ts` 中把文章加入对应栏目的侧边栏。
 
-完整的贡献规范（分支命名、Commit 规范、内容要求等）见仓库中的 [CONTRIBUTING.md](https://github.com/OWNER/DNUI-Survival-Guide/blob/main/CONTRIBUTING.md)。
+完整的贡献规范（分支命名、Commit 规范、内容要求等）见仓库中的 [CONTRIBUTING.md](https://github.com/LuBanQAQ/DNUI-Survival-Guide/blob/main/CONTRIBUTING.md)。
 
 ## 内容规范速览
 

@@ -26,7 +26,7 @@ DNUI Survival Guide（大连东软信息学院生存指南）是一个由学生�
 - 没有可靠内容时，宁可保持「内容正在完善」；
 - 经验类内容代表作者个人视角，请结合自身情况判断。
 
-发现内容错误欢迎通过 [GitHub Issues](https://github.com/OWNER/DNUI-Survival-Guide/issues) 反馈，或直接提交 Pull Request 修正。
+发现内容错误欢迎通过 [GitHub Issues](https://github.com/LuBanQAQ/DNUI-Survival-Guide/issues) 反馈，或直接提交 Pull Request 修正。
 
 ## 技术栈与部署
 
@@ -36,9 +36,9 @@ DNUI Survival Guide（大连东软信息学院生存指南）是一个由学生�
 
 ## 开源协议
 
-本项目以 [MIT License](https://github.com/OWNER/DNUI-Survival-Guide/blob/main/LICENSE) 开源。
+本项目以 [MIT License](https://github.com/LuBanQAQ/DNUI-Survival-Guide/blob/main/LICENSE) 开源。
 
 ## 反馈与参与
 
-- 内容错误与功能建议：[GitHub Issues](https://github.com/OWNER/DNUI-Survival-Guide/issues)
+- 内容错误与功能建议：[GitHub Issues](https://github.com/LuBanQAQ/DNUI-Survival-Guide/issues)
 - 参与内容贡献：见[参与贡献](/contribute/)

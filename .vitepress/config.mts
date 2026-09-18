@@ -3,13 +3,8 @@ import { defineConfig } from 'vitepress'
 import nav from './config/nav'
 import sidebar from './config/sidebar'
 
-/**
- * GitHub 仓库地址
- *
- * 创建仓库后，请把 OWNER 替换为真实的 GitHub 用户名或组织名。
- * 在仓库中全局搜索 OWNER 即可找到所有需要替换的位置（README.md、index.md 等）。
- */
-const GITHUB_REPO = 'https://github.com/OWNER/DNUI-Survival-Guide'
+/** GitHub 仓库地址 */
+const GITHUB_REPO = 'https://github.com/LuBanQAQ/DNUI-Survival-Guide'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({

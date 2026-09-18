@@ -6,9 +6,9 @@
 
 **在线访问：<https://survive.dnui.cc>**
 
-**GitHub 仓库：<https://github.com/OWNER/DNUI-Survival-Guide>**（仓库创建后请全局搜索并替换 `OWNER`）
+**GitHub 仓库：<https://github.com/LuBanQAQ/DNUI-Survival-Guide>**
 
-[![Build Check](https://github.com/OWNER/DNUI-Survival-Guide/actions/workflows/build.yml/badge.svg)](https://github.com/OWNER/DNUI-Survival-Guide/actions/workflows/build.yml)
+[![Build Check](https://github.com/LuBanQAQ/DNUI-Survival-Guide/actions/workflows/build.yml/badge.svg)](https://github.com/LuBanQAQ/DNUI-Survival-Guide/actions/workflows/build.yml)
 
 ## 项目介绍
 
@@ -136,4 +136,4 @@ DNUI-Survival-Guide/
 
 ## 免责声明
 
-DNUI Survival Guide 是由学生维护的非官方项目，与大连东软信息学院官方无隶属关系。站内内容由学生贡献者整理，仅供参考，不代表学校立场。如内容涉及侵权或失实，欢迎通过 [Issue](https://github.com/OWNER/DNUI-Survival-Guide/issues) 指正。
+DNUI Survival Guide 是由学生维护的非官方项目，与大连东软信息学院官方无隶属关系。站内内容由学生贡献者整理，仅供参考，不代表学校立场。如内容涉及侵权或失实，欢迎通过 [Issue](https://github.com/LuBanQAQ/DNUI-Survival-Guide/issues) 指正。
