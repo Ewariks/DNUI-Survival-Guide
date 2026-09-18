@@ -52,6 +52,31 @@ const sidebar: DefaultTheme.Sidebar = {
       text: '竞赛',
       items: [{ text: '概览', link: '/competition/' }],
     },
+    {
+      text: '程序设计类',
+      items: [
+        { text: '蓝桥杯', link: '/competition/lanqiao' },
+        { text: '团体程序设计天梯赛', link: '/competition/gplt' },
+        { text: 'ACM-ICPC 与 CCPC', link: '/competition/icpc-ccpc' },
+        { text: '传智杯', link: '/competition/chuangzhi' },
+      ],
+    },
+    {
+      text: '数学与建模',
+      items: [
+        { text: '全国大学生数学建模竞赛', link: '/competition/math-modeling' },
+      ],
+    },
+    {
+      text: '电子与集成电路',
+      items: [{ text: '集创赛', link: '/competition/ic-design' }],
+    },
+    {
+      text: '生涯规划',
+      items: [
+        { text: '全国大学生职业规划大赛', link: '/competition/career-planning' },
+      ],
+    },
   ],
   '/career/': [
     {
