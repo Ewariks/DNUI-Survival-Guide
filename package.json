@@ -1,0 +1,21 @@
+{
+  "name": "dnui-survival-guide",
+  "version": "0.1.0",
+  "description": "大连东软信息学院生存指南 —— 由学生共同维护的非官方开源项目",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  }
+}
