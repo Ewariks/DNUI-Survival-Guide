@@ -71,7 +71,10 @@ const sidebar: DefaultTheme.Sidebar = {
   '/contribute/': [
     {
       text: '参与贡献',
-      items: [{ text: '贡献指南', link: '/contribute/' }],
+      items: [
+        { text: '贡献指南', link: '/contribute/' },
+        { text: '内容编写指南', link: '/contribute/writing' },
+      ],
     },
   ],
   '/about/': [

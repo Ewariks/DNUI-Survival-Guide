@@ -62,7 +62,7 @@ npm run docs:build
 1. 在对应栏目目录下新建 `xxx.md`（文件名使用小写英文、数字和连字符）。
 2. 在 `.vitepress/config/sidebar.ts` 中把文章加入对应栏目的侧边栏。
 
-完整的贡献规范（分支命名、Commit 规范、内容要求等）见仓库中的 [CONTRIBUTING.md](https://github.com/LuBanQAQ/DNUI-Survival-Guide/blob/main/CONTRIBUTING.md)。
+完整的贡献规范（分支命名、Commit 规范、内容要求等）见仓库中的 [CONTRIBUTING.md](https://github.com/LuBanQAQ/DNUI-Survival-Guide/blob/main/CONTRIBUTING.md)。文章的格式要求（Frontmatter、标题层级、链接、图片等）见[内容编写指南](/contribute/writing)。
 
 ## 内容规范速览
 

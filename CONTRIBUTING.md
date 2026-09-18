@@ -66,6 +66,7 @@ fix/xxx    修复错误
 - 新增文章：在对应目录新建 `xxx.md`，并在 `.vitepress/config/sidebar.ts` 里登记到侧边栏。
 - 文件名使用小写英文、数字和连字符（如 `dorm-life.md`）。
 - 每篇文章建议在开头写 frontmatter：`title` 与 `description`。
+- 详细的格式规范见站内《内容编写指南》：[contribute/writing.md](contribute/writing.md)。
 
 ### 4. Commit
 
