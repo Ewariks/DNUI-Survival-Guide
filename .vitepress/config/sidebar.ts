@@ -45,6 +45,15 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: '英语课与四六级', link: '/study/english' },
         { text: '学习工具与资源', link: '/study/tools' },
         { text: '时间管理', link: '/study/time-management' },
+        { text: '体育课、校园跑与体质测试', link: '/study/pe-and-fitness' },
+      ],
+    },
+    {
+      text: '评优与学分',
+      items: [
+        { text: '奖学金', link: '/study/scholarships' },
+        { text: '学年评优', link: '/study/awards' },
+        { text: '素质学分与竞赛积分', link: '/study/quality-credits' },
       ],
     },
   ],
@@ -55,6 +64,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: '概览', link: '/courses/' },
         { text: '微电子专业基础课体验', link: '/courses/microelectronics-basics' },
         { text: '作业、实验与课程设计', link: '/courses/assignments' },
+        { text: '课程免听', link: '/courses/course-exemption' },
         { text: '高数与线代笔记（微电子专业）', link: '/courses/math-notes' },
       ],
     },
@@ -65,14 +75,17 @@ const sidebar: DefaultTheme.Sidebar = {
       items: [
         { text: '概览', link: '/cs/' },
         { text: '从零开始学编程：一条自学路线', link: '/cs/learning-path' },
-        { text: '方向选择：电子与嵌入式', link: '/cs/direction' },
+        { text: '计算机学习常用网站', link: '/cs/websites' },
       ],
     },
   ],
   '/competition/': [
     {
       text: '竞赛',
-      items: [{ text: '概览', link: '/competition/' }],
+      items: [
+        { text: '概览', link: '/competition/' },
+        { text: '竞赛类别与课程加分', link: '/competition/levels' },
+      ],
     },
     {
       text: '程序设计类',
@@ -111,7 +124,7 @@ const sidebar: DefaultTheme.Sidebar = {
       text: '升学',
       items: [
         { text: '概览', link: '/postgraduate/' },
-        { text: '升学这件事：一个大二学生的想法', link: '/postgraduate/thinking' },
+        { text: '升学这件事：当下的想法', link: '/postgraduate/thinking' },
       ],
     },
   ],
@@ -122,6 +135,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: '概览', link: '/experience/' },
         { text: '大学四年怎么走', link: '/experience/four-years' },
         { text: '社团值不值得参加', link: '/experience/clubs' },
+        { text: '方向选择：电子与嵌入式', link: '/experience/direction' },
       ],
     },
   ],
