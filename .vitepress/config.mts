@@ -14,7 +14,7 @@ export default defineConfig({
     '大连东软信息学院非官方生存指南：新生指南、校园生活、学习经验、竞赛、实习就业与升学，由学生共同维护。',
 
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
     ['meta', { name: 'theme-color', content: '#2563eb' }],
     // Open Graph 基础配置
     ['meta', { property: 'og:type', content: 'website' }],
@@ -36,7 +36,7 @@ export default defineConfig({
     ['meta', { property: 'og:url', content: 'https://survive.dnui.cc/' }],
     [
       'meta',
-      { property: 'og:image', content: 'https://survive.dnui.cc/logo.svg' },
+      { property: 'og:image', content: 'https://survive.dnui.cc/logo.png' },
     ],
     ['meta', { name: 'twitter:card', content: 'summary' }],
   ],
@@ -50,7 +50,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/logo.png',
     siteTitle: 'DNUI Survival Guide',
 
     nav,

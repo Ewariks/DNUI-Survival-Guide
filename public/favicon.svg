@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DNUI Survival Guide">
-  <rect width="64" height="64" rx="14" fill="#2563eb"/>
-  <text x="32" y="40" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="26" font-weight="700" fill="#ffffff">DN</text>
-  <rect x="16" y="46" width="32" height="4" rx="2" fill="rgba(255,255,255,0.9)"/>
-</svg>
