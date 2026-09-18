@@ -26,6 +26,7 @@ const sidebar: DefaultTheme.Sidebar = {
       items: [
         { text: '概览', link: '/campus/' },
         { text: '校园网络与信息化服务', link: '/campus/it-services' },
+        { text: 'DNUI 常用网站导航', link: '/campus/website-navigation' },
       ],
     },
   ],
