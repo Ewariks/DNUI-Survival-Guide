@@ -5,6 +5,9 @@ hero:
   name: DNUI Survival Guide
   text: 大连东软信息学院生存指南
   tagline: 写给每一个不想稀里糊涂度过大学四年的 DNUIer。非官方、开源、由学生共同维护。
+  image:
+    src: /images/school-badge.png
+    alt: 大连东软信息学院校徽
   actions:
     - theme: brand
       text: 开始阅读

@@ -107,7 +107,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '非官方社区项目，与大连东软信息学院官方无隶属关系。',
+      message:
+        '非官方社区项目，与大连东软信息学院官方无隶属关系 · 校徽版权归大连东软信息学院所有',
       copyright:
         'Copyright © 2025-present DNUI Survival Guide 贡献者 · MIT License',
     },

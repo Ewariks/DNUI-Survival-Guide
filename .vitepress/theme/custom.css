@@ -30,3 +30,8 @@
 
   --vp-home-hero-name-background: #60a5fa;
 }
+
+/* 首页 Hero 图片（校徽）：隐藏默认的渐变光晕背景，保持简洁 */
+.home-hero-image .image-bg {
+  display: none;
+}
