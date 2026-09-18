@@ -16,7 +16,9 @@ const sidebar: DefaultTheme.Sidebar = {
       text: '新生指南',
       items: [
         { text: '概览', link: '/freshman/' },
-        // 新增文章示例：{ text: '报到流程', link: '/freshman/checkin' },
+        { text: '选课与学分', link: '/freshman/course-selection' },
+        { text: '转专业', link: '/freshman/major-transfer' },
+        { text: '大一常见误区', link: '/freshman/pitfalls' },
       ],
     },
   ],
@@ -25,6 +27,9 @@ const sidebar: DefaultTheme.Sidebar = {
       text: '校园生活',
       items: [
         { text: '概览', link: '/campus/' },
+        { text: '食堂与校内餐饮', link: '/campus/canteen' },
+        { text: '出行与校园周边', link: '/campus/transport' },
+        { text: '校内消费与门禁', link: '/campus/daily-services' },
         { text: '校园网络与信息化服务', link: '/campus/it-services' },
         { text: '信息化服务常见问题', link: '/campus/it-faq' },
         { text: 'DNUI 常用网站导航', link: '/campus/website-navigation' },
@@ -34,7 +39,13 @@ const sidebar: DefaultTheme.Sidebar = {
   '/study/': [
     {
       text: '学习指南',
-      items: [{ text: '概览', link: '/study/' }],
+      items: [
+        { text: '概览', link: '/study/' },
+        { text: '绩点、考试与复习', link: '/study/gpa-and-exams' },
+        { text: '英语课与四六级', link: '/study/english' },
+        { text: '学习工具与资源', link: '/study/tools' },
+        { text: '时间管理', link: '/study/time-management' },
+      ],
     },
   ],
   '/courses/': [
@@ -42,6 +53,8 @@ const sidebar: DefaultTheme.Sidebar = {
       text: '课程指南',
       items: [
         { text: '概览', link: '/courses/' },
+        { text: '微电子专业基础课体验', link: '/courses/microelectronics-basics' },
+        { text: '作业、实验与课程设计', link: '/courses/assignments' },
         { text: '高数与线代笔记（微电子专业）', link: '/courses/math-notes' },
       ],
     },
@@ -49,7 +62,11 @@ const sidebar: DefaultTheme.Sidebar = {
   '/cs/': [
     {
       text: '计算机方向',
-      items: [{ text: '概览', link: '/cs/' }],
+      items: [
+        { text: '概览', link: '/cs/' },
+        { text: '从零开始学编程：一条自学路线', link: '/cs/learning-path' },
+        { text: '方向选择：电子与嵌入式', link: '/cs/direction' },
+      ],
     },
   ],
   '/competition/': [
@@ -92,13 +109,20 @@ const sidebar: DefaultTheme.Sidebar = {
   '/postgraduate/': [
     {
       text: '升学',
-      items: [{ text: '概览', link: '/postgraduate/' }],
+      items: [
+        { text: '概览', link: '/postgraduate/' },
+        { text: '升学这件事：一个大二学生的想法', link: '/postgraduate/thinking' },
+      ],
     },
   ],
   '/experience/': [
     {
       text: '经验分享',
-      items: [{ text: '概览', link: '/experience/' }],
+      items: [
+        { text: '概览', link: '/experience/' },
+        { text: '大学四年怎么走', link: '/experience/four-years' },
+        { text: '社团值不值得参加', link: '/experience/clubs' },
+      ],
     },
   ],
   '/contribute/': [
