@@ -37,6 +37,7 @@ description: 走技术方向常用的一批网站导航：刷题与算法竞赛�
 | [OI Wiki](https://oi-wiki.org) | 算法竞赛知识体系百科，适合当工具书查 |
 | [Hello 算法](https://www.hello-algo.com) | 数据结构与算法图解教程，有动画演示，开源免费 |
 | [CS 自学指南](https://csdiy.wiki) | 按课程整理的自学路线，把国内外公开课串成体系 |
+| [IC 自学指南](https://crys-chen.github.io/ic-guide/) | CS 自学指南的硬件孪生版 |
 | [MIT《计算机教育中缺失的一课》中文版](https://missing-semester-cn.github.io) | 讲 shell、Git、调试、脚本这些「学校不教但天天要用」的东西，强烈建议早看 |
 
 > [!TIP]

@@ -17,6 +17,7 @@ description: DNUI 学习经验汇总：学习方法、绩点考试与学习资�
 - [英语课与四六级](/study/english)：分级、四级报名与过级要求
 - [学习工具与资源](/study/tools)：常用软件与查资料的地方
 - [时间管理](/study/time-management)：课多的时候怎么排
+- [行动力杂谈](/study/musings-on-the-power-of-action)：一些关于行动力的看法
 - [体育课、校园跑与体质测试](/study/pe-and-fitness)：体育分怎么构成、为什么它卡评优
 
 评优与学分相关：
