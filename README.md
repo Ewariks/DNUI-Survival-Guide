@@ -105,7 +105,13 @@ DNUI-Survival-Guide/
 2. 修改 Markdown，提交到你的 Fork；
 3. 向主仓库的 `main` 分支提交 Pull Request，等待 Review 与 Merge。
 
-详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+详见 [CONTRIBUTING.md](CONTRIBUTING.md)，格式规范见站内[内容编写指南](https://survive.dnui.cc/contribute/writing)。
+
+## 致谢
+
+本指南由同学们共同贡献。所有贡献者会依据 Git 提交记录**自动**出现在[致谢页](https://survive.dnui.cc/acknowledgments)及每篇文章底部——用 GitHub 关联邮箱提交即可自动识别头像，无需登记。
+
+感谢每一位分享经验的 DNUIer 🎉
 
 ## 部署方式（维护者）
 
