@@ -23,7 +23,7 @@ description: DNUI 学习经验汇总：学习方法、绩点考试与学习资�
 
 - [奖学金](/study/scholarships)：有哪些奖学金、金额与成绩门槛
 - [学年评优](/study/awards)：优秀个人与优秀集体奖项
-- [素质学分与竞赛积分](/study/quality-credits)：素拓分怎么算、竞赛成绩怎么录入
+- [素质教育学分与创新创业实践学分](/study/quality-credits)：素拓分怎么算、竞赛成绩怎么录入
 
 ## 参与贡献
 
