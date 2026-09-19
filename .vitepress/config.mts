@@ -75,6 +75,11 @@ export default defineConfig({
     math: true,
   },
 
+  // 站点地图：帮助搜索引擎发现与收录页面（构建时生成 /sitemap.xml）
+  sitemap: {
+    hostname: 'https://survive.dnui.cc',
+  },
+
   // 页面底部显示「最后更新」时间（取自 Git 提交记录）
   lastUpdated: {
     text: '最后更新',
