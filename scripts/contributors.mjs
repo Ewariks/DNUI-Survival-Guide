@@ -35,6 +35,16 @@ const CACHE_FILE = resolve(process.cwd(), '.vitepress/contributors-cache.json')
 
 const git = (...args) => execFileSync('git', args, { encoding: 'utf-8' }).trim()
 
+// 浅克隆环境下补全历史（部分 CI 只 fetch 单个提交，会导致统计不完整）
+try {
+  if (git('rev-parse', '--is-shallow-repository') === 'true') {
+    console.log('[contributors] 检测到浅克隆，尝试获取完整历史…')
+    execFileSync('git', ['fetch', '--unshallow', '--quiet'], { stdio: 'ignore' })
+  }
+} catch {
+  console.warn('[contributors] 无法补全 Git 历史，将使用现有提交记录统计')
+}
+
 // ---- 1. 解析 Git 历史 ----
 const commits = git('log', '--all', '--format=%H%x09%an%x09%ae')
   .split('\n')
