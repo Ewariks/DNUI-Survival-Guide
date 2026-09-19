@@ -19,35 +19,37 @@ hero:
       text: GitHub
       link: https://github.com/LuBanQAQ/DNUI-Survival-Guide
 
+# 首页卡片与侧边栏顶级大类保持一致（.vitepress/config/sidebar.ts）。
+# 新增大类时，在 sidebar.ts 建好分组后，在这里加一张卡片即可。
 features:
+  - icon: 🎒
+    title: 新生指南
+    details: 入学报到、选课学分、转专业与常见问题。
+    link: /freshman/
+    linkText: 进入栏目
   - icon: 🏫
     title: 校园生活
-    details: 校园里的衣食住行与日常攻略。
+    details: 食宿出行、校园网与信息化服务、常用网站导航。
     link: /campus/
     linkText: 进入栏目
+  - icon: 🤝
+    title: 学生组织
+    details: 校级组织、院级组织与学生社团。
+    link: /student-orgs/
+    linkText: 进入栏目
   - icon: 📚
-    title: 学习成长
-    details: 学习方法、课程经验与专业成长路线。
+    title: 学习指南
+    details: 学习方法、课程、竞赛、实习就业与升学。
     link: /study/
-    linkText: 进入栏目
-  - icon: 💻
-    title: 计算机方向
-    details: 编程入门、技术方向选择与项目实践。
-    link: /cs/
-    linkText: 进入栏目
-  - icon: 🏆
-    title: 竞赛
-    details: 各类学科竞赛的参赛经验与备赛资料。
-    link: /competition/
-    linkText: 进入栏目
-  - icon: 💼
-    title: 实习就业
-    details: 实习准备、简历面试与校招经验。
-    link: /career/
     linkText: 进入栏目
   - icon: ✨
     title: 经验分享
     details: 学长学姐的真实经验与大学规划。
     link: /experience/
     linkText: 进入栏目
+  - icon: 💡
+    title: 参与贡献
+    details: 会 Markdown 就能参与，一起完善这份指南。
+    link: /contribute/
+    linkText: 了解如何参与
 ---
