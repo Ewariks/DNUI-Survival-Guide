@@ -53,6 +53,7 @@ const sidebar: DefaultTheme.SidebarItem[] = [
       { text: '英语课与四六级', link: '/study/english' },
       { text: '学习工具与资源', link: '/study/tools' },
       { text: '时间管理', link: '/study/time-management' },
+      { text: '行动力杂谈', link: '/study/musings-on-the-power-of-action' },
       { text: '体育课、校园跑与体质测试', link: '/study/pe-and-fitness' },
       {
         text: '评优与学分',
