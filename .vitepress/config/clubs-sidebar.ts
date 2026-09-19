@@ -9,7 +9,7 @@ import type { DefaultTheme } from 'vitepress'
  */
 export const clubGroups: DefaultTheme.SidebarItem[] = [
   {
-    text: "学术科技类（36）",
+    text: "学术科技类",
     collapsed: true,
     items: [
       {
@@ -159,7 +159,7 @@ export const clubGroups: DefaultTheme.SidebarItem[] = [
     ]
   },
   {
-    text: "思想政治类（6）",
+    text: "思想政治类",
     collapsed: true,
     items: [
       {
@@ -189,7 +189,7 @@ export const clubGroups: DefaultTheme.SidebarItem[] = [
     ]
   },
   {
-    text: "文化艺术类（20）",
+    text: "文化艺术类",
     collapsed: true,
     items: [
       {
@@ -275,7 +275,7 @@ export const clubGroups: DefaultTheme.SidebarItem[] = [
     ]
   },
   {
-    text: "体育竞技类（11）",
+    text: "体育竞技类",
     collapsed: true,
     items: [
       {
@@ -325,7 +325,7 @@ export const clubGroups: DefaultTheme.SidebarItem[] = [
     ]
   },
   {
-    text: "志愿公益类（6）",
+    text: "志愿公益类",
     collapsed: true,
     items: [
       {
@@ -355,7 +355,7 @@ export const clubGroups: DefaultTheme.SidebarItem[] = [
     ]
   },
   {
-    text: "自律互助类（10）",
+    text: "自律互助类",
     collapsed: true,
     items: [
       {
@@ -401,7 +401,7 @@ export const clubGroups: DefaultTheme.SidebarItem[] = [
     ]
   },
   {
-    text: "创新创业类（5）",
+    text: "创新创业类",
     collapsed: true,
     items: [
       {
