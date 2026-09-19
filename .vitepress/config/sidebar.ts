@@ -61,7 +61,7 @@ const sidebar: DefaultTheme.SidebarItem[] = [
         items: [
           { text: '奖学金', link: '/study/scholarships' },
           { text: '学年评优', link: '/study/awards' },
-          { text: '素质学分与竞赛积分', link: '/study/quality-credits' },
+          { text: '素质教育学分与创新创业实践学分', link: '/study/quality-credits' },
         ],
       },
       {
