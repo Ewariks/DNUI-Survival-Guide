@@ -1,5 +1,7 @@
 import type { DefaultTheme } from 'vitepress'
 
+import { clubGroups } from './clubs-sidebar'
+
 /**
  * 全站侧边栏
  *
@@ -36,7 +38,11 @@ const sidebar: DefaultTheme.SidebarItem[] = [
       { text: '序', link: '/student-orgs/' },
       { text: '校级组织', link: '/student-orgs/university' },
       { text: '院级组织', link: '/student-orgs/college' },
-      { text: '学生社团', link: '/student-orgs/clubs' },
+      {
+        text: '学生社团',
+        collapsed: true,
+        items: [{ text: '名录总览', link: '/student-orgs/clubs/' }, ...clubGroups],
+      },
     ],
   },
   {
