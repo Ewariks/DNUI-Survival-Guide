@@ -9,8 +9,9 @@
     "node": ">=22"
   },
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "contributors": "node scripts/contributors.mjs",
+    "docs:dev": "node scripts/contributors.mjs && vitepress dev",
+    "docs:build": "node scripts/contributors.mjs && vitepress build",
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {

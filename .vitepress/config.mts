@@ -1,10 +1,36 @@
+import { readFileSync } from 'node:fs'
+import { resolve } from 'node:path'
+
 import { defineConfig } from 'vitepress'
 
-import nav from './config/nav'
 import sidebar from './config/sidebar'
 
 /** GitHub 仓库地址 */
 const GITHUB_REPO = 'https://github.com/LuBanQAQ/DNUI-Survival-Guide'
+
+/** 页面贡献者数据（由 scripts/contributors.mjs 生成） */
+interface ContributorEntry {
+  name: string
+  email: string
+  github?: string
+}
+
+let perFileCache: Record<string, ContributorEntry[]> | null = null
+
+function loadContributors(): Record<string, ContributorEntry[]> {
+  if (perFileCache) return perFileCache
+  try {
+    perFileCache = JSON.parse(
+      readFileSync(
+        resolve(process.cwd(), '.vitepress/contributors-data.json'),
+        'utf-8',
+      ),
+    ).perFile
+  } catch {
+    perFileCache = {}
+  }
+  return perFileCache
+}
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -54,11 +80,22 @@ export default defineConfig({
     text: '最后更新',
   },
 
+  // 为每个页面注入「本文贡献者」数据（渲染见 theme/Contributors.vue）
+  transformPageData(pageData) {
+    const contributors = loadContributors()[pageData.relativePath]
+    if (contributors?.length) {
+      pageData.frontmatter.contributors = contributors
+    }
+  },
+
   themeConfig: {
     logo: '/logo.png',
     siteTitle: 'DNUI Survival Guide',
 
-    nav,
+    // 顶部导航保持极简（与 BYR Docs 一致）：
+    // 所有栏目通过侧边栏组织，由首页「开始阅读」进入
+    nav: [],
+
     sidebar,
 
     outline: {

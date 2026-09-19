@@ -5,6 +5,9 @@ node_modules/
 .vitepress/dist/
 .vitepress/cache/
 
+# 构建时生成的贡献者数据（每次构建重新生成）
+.vitepress/contributors-data.json
+
 # 本地 npm 缓存（如有）
 .npm-cache/
 

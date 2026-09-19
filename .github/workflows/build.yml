@@ -17,6 +17,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # 完整克隆，保证「最后更新」与贡献者数据完整
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

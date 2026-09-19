@@ -31,7 +31,117 @@
   --vp-home-hero-name-background: #60a5fa;
 }
 
-/* 首页 Hero 图片（校徽）：隐藏默认的渐变光晕背景，保持简洁 */
+/* 首页 Hero 图片：隐藏默认的渐变光晕背景，保持简洁 */
 .home-hero-image .image-bg {
   display: none;
+}
+
+/* ===== 贡献者展示 ===== */
+
+/* 每页底部「本文贡献者」 */
+.page-contributors {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.page-contributors-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+}
+
+.page-contributors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin-top: 10px;
+}
+
+.page-contributor {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--vp-c-text-2);
+}
+
+.page-contributor:hover .page-contributor-name {
+  color: var(--vp-c-brand-1);
+}
+
+.page-contributor-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.page-contributor-avatar--fallback {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.page-contributor-name {
+  font-size: 13px;
+}
+
+/* 致谢页「总体贡献」卡片 */
+.all-contributors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.contributor-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px 10px 10px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+}
+
+.contributor-card:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+.contributor-card-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.contributor-card-avatar--fallback {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contributor-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contributor-card-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.contributor-card:hover .contributor-card-name {
+  color: var(--vp-c-brand-1);
+}
+
+.contributor-card-commits {
+  font-size: 12px;
+  color: var(--vp-c-text-3);
 }
