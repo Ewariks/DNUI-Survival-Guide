@@ -33,6 +33,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: '校园网络与信息化服务', link: '/campus/it-services' },
         { text: '信息化服务常见问题', link: '/campus/it-faq' },
         { text: 'DNUI 常用网站导航', link: '/campus/website-navigation' },
+        { text: '学生组织', link: '/campus/student-orgs' },
       ],
     },
   ],
