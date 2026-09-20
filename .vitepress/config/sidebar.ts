@@ -120,6 +120,7 @@ const sidebar: DefaultTheme.SidebarItem[] = [
       { text: '序', link: '/experience/' },
       { text: '大学四年怎么走', link: '/experience/four-years' },
       { text: '社团值不值得参加', link: '/experience/clubs' },
+      { text: '从前的网安和现在的网安', link: '/experience/cybersecurity-then-and-now' },
       { text: '方向选择：电子与嵌入式', link: '/experience/direction' },
     ],
   },
