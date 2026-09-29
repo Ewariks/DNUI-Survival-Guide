@@ -38,6 +38,8 @@ const sidebar: DefaultTheme.SidebarItem[] = [
       { text: '序', link: '/student-orgs/' },
       { text: '校级组织', link: '/student-orgs/university' },
       { text: '微光网络工作室', link: '/student-orgs/shimmer' },
+      { text: 'ACM编程爱好者社', link: '/student-orgs/acm' },
+      { text: '网络安全工作室', link: '/student-orgs/network-security-studio' },
       { text: '院级组织', link: '/student-orgs/college' },
       {
         text: '学生社团',

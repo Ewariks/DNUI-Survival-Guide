@@ -35,7 +35,7 @@ DNUI 的学生组织大致分为三层，本栏目按层组织内容：
 - **蓝桥杯国赛多人次全国一等奖**，历史最好成绩全国第 8 名（2010 级校友创造，位列当年所有东北高校选手之前）；分 A/B 组后仍获过 A 组一等奖；
 - 天梯赛最好成绩（本科组）：国三等、东北二等、辽宁省一等奖。
 
-详见[社团页面](/student-orgs/clubs/tech/acm-bian-cheng-ai-hao-zhe-she)，竞赛介绍见[ACM-ICPC 与 CCPC](/competition/icpc-ccpc)、[蓝桥杯](/competition/lanqiao)。
+详见[ACM编程爱好者社专页](/student-orgs/acm)，竞赛介绍见[ACM-ICPC 与 CCPC](/competition/icpc-ccpc)、[蓝桥杯](/competition/lanqiao)。
 
 ### 大连东软网络安全工作室 · 攻防实战型技术团队
 
@@ -48,7 +48,7 @@ DNUI 的学生组织大致分为三层，本栏目按层组织内容：
 - 全国大学生信息安全与对抗技术竞赛国家级三等奖（2022）、"强国杯"技术技能大赛国家级三等奖（2022）；
 - 大连市职业技能竞赛网络安全大赛一等奖（2022，1 人获「大连市网络安全技术标兵」称号）。
 
-详见[工作室页面](/student-orgs/clubs/mutual-aid/da-lian-dong-ruan-wang-luo-an-quan-gong-zuo-shi)。
+详见[网络安全工作室专页](/student-orgs/network-security-studio)。
 
 ### 微光网络工作室 · 学校官网的开发者
 
