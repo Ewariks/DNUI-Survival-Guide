@@ -37,6 +37,7 @@ const sidebar: DefaultTheme.SidebarItem[] = [
     items: [
       { text: '序', link: '/student-orgs/' },
       { text: '校级组织', link: '/student-orgs/university' },
+      { text: '微光网络工作室', link: '/student-orgs/shimmer' },
       { text: '院级组织', link: '/student-orgs/college' },
       {
         text: '学生社团',

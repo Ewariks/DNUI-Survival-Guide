@@ -52,9 +52,9 @@ DNUI 的学生组织大致分为三层，本栏目按层组织内容：
 
 ### 微光网络工作室 · 学校官网的开发者
 
-[Shimmer](https://shimmer.neusoft.edu.cn/) 是学校的 Web 兴趣团队，**你正在浏览的学校官网（含英文版、日文版）、新闻文化网、[东软 Go! 校内网址导航](http://go.neusoft.edu.cn/)都是它的作品**——学校官网页脚的「技术支持」就是它。团队规模不大（自述不足十人），产品与兴趣驱动，开源项目托管在 [GitHub（NeuShimmer）](https://github.com/NeuShimmer)。
+[Shimmer](https://shimmer.neusoft.edu.cn/) 是学校的学生 Web 技术团队（2013 年成立），**学校官网（中/英/日三语版）、新闻文化网都是它的作品**——官网页脚的「技术支持」就是它；东小龙系列校园产品（连连看、拼图、校园打卡、积分商城）也由它出品。开源项目托管在 [GitHub（NeuShimmer）](https://github.com/NeuShimmer)。
 
-详见[校级组织](/student-orgs/university)页。
+详见[微光网络工作室专页](/student-orgs/shimmer)（含作品成果、加入理由与报名方式）。
 
 > [!NOTE]
 > 学校的计算机类竞赛数据曾[位列全国民办高校第一](https://www.neusoft.edu.cn/html/975/2023-04-12/content-5514.html)（2023 年），上面这些组织正是其中重要的力量。
